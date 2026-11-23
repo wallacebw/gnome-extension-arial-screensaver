@@ -1,0 +1,35 @@
+/* Aerial Screensaver: text drawn over the video. */
+
+.aerial-screensaver-caption-box {
+    padding: 120px 56px 48px 56px;
+    background-gradient-direction: vertical;
+    background-gradient-start: rgba(0, 0, 0, 0);
+    background-gradient-end: rgba(0, 0, 0, 0.6);
+}
+
+.aerial-screensaver-caption-title,
+.aerial-screensaver-caption-text,
+.aerial-screensaver-clock-date,
+.aerial-screensaver-clock-time {
+    color: rgba(255, 255, 255, 0.95);
+    font-weight: 300;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.aerial-screensaver-caption-title { font-size: 22px; }
+.aerial-screensaver-caption-text { font-size: 26px; }
+
+.aerial-screensaver-clock-box {
+    padding: 48px 56px 120px 56px;
+    background-gradient-direction: vertical;
+    background-gradient-start: rgba(0, 0, 0, 0.45);
+    background-gradient-end: rgba(0, 0, 0, 0);
+}
+
+.aerial-screensaver-clock-date { font-size: 24px; }
+.aerial-screensaver-clock-time { font-size: 30px; }
+
+.aerial-screensaver-error { background-color: black; }
+.aerial-screensaver-error-title { font-size: 28px; font-weight: bold; color: white; padding-bottom: 12px; }
+.aerial-screensaver-error-message { font-size: 20px; color: #ff8080; padding-bottom: 8px; }
+.aerial-screensaver-error-path { font-size: 14px; color: #a0a0a0; }

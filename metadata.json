@@ -1,0 +1,9 @@
+{
+  "name": "Aerial Screensaver",
+  "description": "Plays a folder tree of aerial videos as a screensaver, with the clip's caption and a clock over the video. Ported from Movie Screensaver by Gilson F.",
+  "uuid": "aerial-screensaver@wallacebw.github.io",
+  "shell-version": ["47", "48", "49", "50", "51"],
+  "settings-schema": "org.gnome.shell.extensions.aerial-screensaver",
+  "url": "https://github.com/wallacebw/gnome-extension-arial-screensaver",
+  "version": 1
+}

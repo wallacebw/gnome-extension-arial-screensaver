@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="aerial-screensaver">
+  <schema id="org.gnome.shell.extensions.aerial-screensaver"
+          path="/org/gnome/shell/extensions/aerial-screensaver/">
+    <key name="enabled" type="b">
+      <default>true</default>
+      <summary>Start the screensaver when idle</summary>
+    </key>
+    <key name="idle-timeout-minutes" type="i">
+      <range min="1" max="120"/>
+      <default>5</default>
+      <summary>Minutes of inactivity before the screensaver starts</summary>
+    </key>
+    <key name="videos-folder" type="s">
+      <default>''</default>
+      <summary>Folder containing the videos</summary>
+      <description>Searched recursively. If it contains a captions.json, the captions listed there are used; every other clip is captioned by its file name.</description>
+    </key>
+    <key name="shuffle-videos" type="b">
+      <default>true</default>
+      <summary>Play the clips in random order</summary>
+    </key>
+    <key name="mute-video" type="b">
+      <default>true</default>
+      <summary>Mute the videos' sound</summary>
+    </key>
+    <key name="lock-screen-after" type="b">
+      <default>false</default>
+      <summary>Lock the screen when the screensaver is dismissed</summary>
+    </key>
+    <key name="fill-screen" type="b">
+      <default>true</default>
+      <summary>Zoom videos to fill the screen</summary>
+      <description>Crops the picture on screens that are not 16:9 instead of showing black bars.</description>
+    </key>
+    <key name="show-captions" type="b">
+      <default>true</default>
+      <summary>Show each clip's caption</summary>
+    </key>
+    <key name="show-clock" type="b">
+      <default>true</default>
+      <summary>Show the date and time</summary>
+    </key>
+  </schema>
+</schemalist>
